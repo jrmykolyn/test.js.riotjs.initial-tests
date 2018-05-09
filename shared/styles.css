@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #444;
+    background: #efefef;
+    padding: 3rem 0;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+main {
+    width: 90%;
+    max-width: 80rem;
+    background: #fff;
+    margin: 0 auto;
+    padding: 3rem;
+    box-shadow: 0 0.3rem 2rem -0.5rem rgba( 0, 0, 0, 0.2 );
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+input,
+label,
+button {
+    display: block;
+    color: #666;
+    font-size: 1.4rem;
+}
+
+button,
+input[type="submit"] {
+    color: #fff;
+    background: #30336b;
+    width: 100%;
+    min-width: 12rem;
+    max-width: 20rem;
+    border: transparent;
+    border-radius: 2rem;
+    line-height: 4rem;
+    text-align: center;
+    margin: 2rem auto;
+    transition: background 0.15s;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: #212352;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: solid 0.2rem #999;
+}
