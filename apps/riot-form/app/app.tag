@@ -1,4 +1,4 @@
-<riot-form>
+<app>
 	<form class="riot-form">
 		<div class="riot-form__errors">
 			<a href="#firstname">Jump to `firstname`.</a>
@@ -48,13 +48,13 @@
 	</script>
 
 	<style>
-		.riot-form {
-
-		}
-
 		.riot-form label {
 			display: block;
 			margin-bottom: 0.5rem;
+		}
+
+		.riot-form li:not( :last-child ) {
+			margin-bottom: 2rem;
 		}
 
 		.riot-form input {
@@ -154,4 +154,4 @@
 			transform: translate( -200%, -200% );
 		}
 	</style>
-</riot-form>
+</app>
